@@ -1,0 +1,23 @@
+header {
+    background-color: #ADD8E6;
+    height: 100px;
+}
+
+.container {
+    background-color: #DAA520;
+    height: 25px;
+    display: flex;
+    
+}
+
+.container> div,nav {
+    border: dashed;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav {
+    flex-grow: 1;
+}
