@@ -4,8 +4,7 @@ header {
     background-color: #ADD8E6;
     display: flex;
     align-items: center;
-    height: 120px;
-    
+    height: 120px; 
 }
 
 .container-header {
@@ -29,6 +28,80 @@ header {
 .container-header :last-child {
     text-align: right;
 }
+
+/* Main */
+
+/* First section */
+
+.first-section {
+    background-color: #00008B;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section :only-child {
+    height: 300px;
+    width: 600px;
+    background-color: #EE82EE;
+    border: 1px dashed black;   
+}
+
+/* Second & Fourth section */
+
+.second-section, .fourth-section {
+    background-color: #FFFFFF;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    background-color: #1E90FF;
+    height: 400px; 
+    width: 600px;
+    border: 1px dashed black;
+}
+
+.small {
+    background-color: #FFC0CB;
+    height: 400px;
+    width: 400px;
+    border: 1px dashed black;
+}
+
+/* Third section */
+
+.third-section {
+    background-color: #D3D3D3;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fifth section */
+
+.fifth-section {
+    background-color: #D3D3D3;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section :only-child {
+    height: 800px;
+    width: 1000px;
+    background-color: #228B22;
+    border: 1px dashed black;
+}
+
+
+
+
 
 
 
